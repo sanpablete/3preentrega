@@ -20,3 +20,6 @@
   --animate-duration: 3s;
 }
 
+.cartaanimada:hover{
+  animation-name: animate__pulse; 
+}

@@ -1,0 +1,18 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../Imagenes/alaba 2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.animate__animated .animate__slideInDown {
+  --animate-delay: 1000;
+  --animate-duration: 3s; }
+
+.animate__animated .animate__bounce {
+  --animate-delay: 2s;
+  --animate-duration: 3s; }
+
+.cartaanimada:hover {
+  animation-name: animate__pulse; }

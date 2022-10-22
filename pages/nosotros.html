@@ -23,52 +23,67 @@
 		
 
 <body>
-	<header class="nav">
-			  
-				
-		<nav class="container-fluid d-flex justify-content-center" id="nav">
+	
+	<header class="container d-flex  justify-content-around align-items-center">
+          
+            
+		<div class="container-fluid d-flex" id="nav">
+		  <div class="container d-flex justify-content-start align-items-center">
+			<img src="../assets/Imagenes/logo2.png" width="50" height="50" class="d-inline-block">
+			<span class="navbar-brand fs-3 animate__animated animate__bounce ">Creciendo Juntos</span>
 			
-		   
-			 <nav class="navbar navbar-expand-sm bg-light bg-opacity-50 ">
-				 <div class="container-fluid ">
-				   <a class="navbar-brand fs-1" href="#">Creciendo Juntos </a>
-				   <img src="../assets/Imagenes/logo2.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
-
-				   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					 <span class="navbar-toggler-icon"></span>
-				   </button>
-				   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-					 <ul class="navbar-nav">
-					   <li class="nav-item">
-						 <a class="nav-link active fs-3" aria-current="page" href="../index.html">Inicio</a>
-					   </li>
-					   <li class="nav-item">
-						 <a class="nav-link fs-3" href="./mensajes.html">Mensajes</a>
-					   </li>
-					   <li class="nav-item">
-						 <a class="nav-link fs-3" href="./contacto.html">Contacto</a>
-					   </li>
-					   <li class="nav-item dropdown">
-						 <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						   Conocenos
-						 </a>
-						 <ul class="dropdown-menu">
-						   <li><a class="dropdown-item fs-5" href="./nosotros.html">Nosotros</a></li>
-						   <li><a class="dropdown-item fs-5" href="./pastores.html">Pastores</a></li>
-						   <li><a class="dropdown-item fs-5" href="./ubicacion.html">Ubicacion</a></li>
-						 </ul>
-					   </li>
-					 </ul>
-				   </div>
-				 </div>
-			   </nav>
+		  </div>
+		   <nav class="navbar navbar-expand-xl bg-light bg-opacity-25 ">
+			 <div class="container-fluid ">
+			 
+	
+			   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			   <span class="navbar-toggler-icon"></span>
+			   </button>
+			   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			   <ul class="navbar-nav nav-pills">
+				 <li class="nav-item">
+				 <a class="nav-link  fs-6" aria-current="page" href="../index.html">Inicio</a>
+				 </li>
+				 <li class="nav-item">
+				 <a class="nav-link fs-6" href="../pages/mensajes.html">Mensajes</a>
+				 </li>
+				 
+				<li class="nav-item">
+				  <a class="nav-link active fs-6" href="../pages/nosotros.html">Nosotros</a></li>
+				<li class="nav-item">
+				  <a class="nav-link fs-6" href="../pages/pastores.html">Pastores</a></li>
+				<li class="nav-item">
+				  <a class="nav-link  fs-6" href="../pages/ubicacion.html">Ubicacion</a></li>
+				  <li class="nav-item">
+					<a class="nav-link fs-6" href="../pages/contacto.html">Contacto</a>
+					</li>		 
+			   </ul>
+			   </div>
+			 </div>
+			</nav>
+		</div>
 		 
-
+	
 		 
-	   </header>
-	<hr>
-
+		 </header>	
 	<main>
+		<hr>
+
+		<div class="">
+			<div class="bg-dark text-secondary px-4 py-5 text-center">
+				<div class="py-5">
+				  <h2 class="display-5 fw-bold text-white">Reuniones en Vivo</h2>
+				  <div class="col-lg-6 mx-auto">
+					<p class="fs-5 mb-4">Unite a Nuestras reuniones en directo</p>
+					<div class="d-grid gap-2 d-sm-flex justify-content-sm-center ratio ratio-16x9">
+						<img src="../assets/Imagenes/secuencia.gif" alt="imagenes de iglesia" >
+
+					</div>
+				  </div>
+				</div>
+			  </div>
+		  </div>
 
 	<div class="px-4 py-1 my-5 text-auto">
 		  <img class="d-block mx-auto mb-4" src="../assets/Imagenes/logo.jpg" alt="" width="60" height="60">
@@ -97,13 +112,14 @@
 	
 	</main>
 
-	<footer class="container-fluid d-flex-row fondofooter">
+	<footer class="container-fluid  fondofooter ">
+
 		<div class="row">
-			<div class="col-md-4 col-sm-12 d-flex justify-content-center align-items-center"><img src="../assets/Imagenes/logo2.png" width="75" height="75" alt="logo creciendo juntos" ></div>
+			<div class="col-md-4 col-sm-12 d-flex justify-content-center align-items-center" id="logofooter" ><img  src="../assets/Imagenes/logo2.png" width="50" height="50" alt="logo creciendo juntos" ></div>
 			<div class="col-md-4 col-sm-12 d-flex justify-content-center align-items-center fs-6 fw-bold"> Creciendo Juntos - Pinagasta 1469, B° Talleres Oeste</div>
-			<div class="col-md-1 col-sm-4 px-0 mx-0 d-flex justify-content-center align-items-center "><a href="https://www.facebook.com/iglesiacreciendojuntos/"><i class="fa-brands fa-facebook fa-2xl"></i></a></div>
-			<div class="col-md-1 col-sm-4 px-0 mx-0 d-flex justify-content-center align-items-center g-0"><a href="https://www.instagram.com/iglesia_creciendo_juntos/"><i class="fa-brands fa-instagram fa-2xl"></i></a></div>
-			<div class="col-md-1 col-sm-4 px-0 mx-0 d-flex justify-content-center align-items-center "><a href="https://www.youtube.com/channel/UC7eoqxngSYisfRR8lnawSqg"><i class="fa-brands fa-youtube fa-2xl"></i></a></div>
+			<div class="col  d-flex justify-content-center align-items-center "><a href="https://www.facebook.com/iglesiacreciendojuntos/"><i class="fa-brands fa-facebook fa-2xl "></i></a></div>
+			<div class="col  d-flex justify-content-center align-items-center g-0 "><a href="https://www.instagram.com/iglesia_creciendo_juntos/"><i class="fa-brands fa-instagram fa-2xl "></i></a></div>
+			<div class="col  d-flex justify-content-center align-items-center "><a href="https://www.youtube.com/channel/UC7eoqxngSYisfRR8lnawSqg"><i class="fa-brands fa-youtube fa-2xl iconoyoutube"></i></a></div>
 		  </div> 
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

@@ -5,9 +5,43 @@
 }
 
 .nav-pills > li > a:hover {
-    color: #776162!important;
+    color: #b31e25 !important; /*color texto*/
   }
   
   .nav-link-color {
     color: #ffffff !important;
+  }
+
+  .anima_link {
+    background: #fff; /* color de fondo */
+    color: #4741d7; /* color de fuente */
+    border: 2px solid #4741d7; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .anima_link:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .anima_link::after {
+    content: "";
+    background: #ecdde2; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+  }
+  .anima_link:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
   }

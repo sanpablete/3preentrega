@@ -1,11 +1,11 @@
 
   .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff !important;
-    background-color: #626262!important;
+    color: $textcolorlink !important;
+    background-color:$colorfondolink !important;/*color fondo link*/
 }
 
 .nav-pills > li > a:hover {
-    color: #b31e25 !important; /*color texto*/
+    color: $colortextolink !important; /*color texto link*/
   }
   
   .nav-link-color {
